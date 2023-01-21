@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,200&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./File/mountain.jpeg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* sans-serif implies a font without serifs*/
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 1rem;
+}
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.big-text {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5rem;
+    margin: 1rem 2rem;
+}
+.countdown-el {
+    text-align: center;
+}
+.countdown-el span {
+    font-size: 1.3rem;
+}
